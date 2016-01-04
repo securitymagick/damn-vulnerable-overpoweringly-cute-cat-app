@@ -94,7 +94,7 @@
                         <input type="text" name="answer" value="<%= answer %>" />
                     </section>
                     <section class="row btn-row">
-						  <input type="hidden" name="redirect" value="<%= request.getContextPath() %>/protected/" />
+			<input type="hidden" name="redirect" value="<%= request.getContextPath() %>/protected/" />
                         <input type="submit" value="Submit" />
                         <input type="reset" value="Reset" />
                     </section>
